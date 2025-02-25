@@ -1,11 +1,10 @@
 import { TrueSheet } from '@lodev09/react-native-true-sheet';
-import React, { ReactElement, useRef, useState } from 'react';
+import React, { ReactElement, useRef } from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import DatePicker from 'react-native-date-picker';
 
 export default function Index(): ReactElement {
   const sheetRef = useRef<TrueSheet>(null);
-  const [value, setValue] = useState<Date>(new Date());
 
   return (
     <View style={styles.container}>
@@ -13,8 +12,8 @@ export default function Index(): ReactElement {
         <Text>Open sheet</Text>
       </Pressable>
       <TrueSheet grabber={true} ref={sheetRef} sizes={['auto']}>
-        <View style={styles.sheet}>
-          <DatePicker onDateChange={setValue} mode='time' date={value} minimumDate={new Date()} theme='dark' />
+        <View style={styles.sheet} onStartShouldSetResponder={() => true} onResponderTerminationRequest={() => false}>
+          <DatePicker mode='time' date={new Date()} theme='dark' />
         </View>
       </TrueSheet>
     </View>
