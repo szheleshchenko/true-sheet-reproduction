@@ -16,6 +16,6 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
     npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+In the output, you'll find options to open the app
 
-- [development build](https://expo.dev/accounts/subcomandante/projects/true-sheet-reproduction/builds/e6e35085-80f9-4d54-b09e-0ce564a02f9c/)
+https://expo.dev/accounts/subcomandante/projects/true-sheet-reproduction/builds/e6e35085-80f9-4d54-b09e-0ce564a02f9c/
