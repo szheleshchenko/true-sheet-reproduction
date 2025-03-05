@@ -42,8 +42,9 @@
         "origin": false
       },
       "eas": {
-        "projectId": "f6bcce4b-7106-4edb-adca-c6c643e2996f"
+        "projectId": "6d38c9e0-08ce-4329-a447-2cf8fb985e97"
       }
-    }
+    },
+    "owner": "reproduction"
   }
 }

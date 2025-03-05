@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@expo/vector-icons": "^14.0.2",
-    "@lodev09/react-native-true-sheet": "0.13.0",
+    "@lodev09/react-native-true-sheet": "github:lodev09/react-native-true-sheet#fix/android-touch-events",
     "@react-navigation/bottom-tabs": "^7.2.0",
     "@react-navigation/native": "^7.0.14",
     "expo": "~52.0.37",
